@@ -24,6 +24,19 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section className="bg-white">
+        <div className="container">
+          <div className="flex flex-wrap h-96">
+            <div className="mt-24 mx-auto relative">
+              <h1 className="text-primary font-bold text-2xl">AYO MULAI PORTFOLIO KAMU</h1>
+              <div className="grid grid-cols-3">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

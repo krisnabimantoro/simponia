@@ -4,7 +4,7 @@ import { Button } from "../components/ui/button";
 
 const Navbar = () => {
   return (
-    <nav className="w-full bg-transparent  fixed top-0">
+    <nav className="w-full fixed top-0 backdrop-blur-sm   z-10 ">
       <div className="container">
         <div className="mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
