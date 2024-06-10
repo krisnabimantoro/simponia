@@ -62,7 +62,63 @@ export default function Home() {
         </div>
       </section>
 
-      
+      <section className="bg-white">
+        <div className="container ">
+          <div className="flex bg-gradient-to-tr from-topgrad to-secondary rounded-3xl ">
+            <div className="self-center mx-auto">
+              <h1 className="text-white text-center mt-16 text-3xl font-bold">Kategori Portfolio</h1>
+              <div className="grid grid-cols-4 grid-rows-1 gap-6 pt-12 mb-16 ">
+                <div className="border border-white w-56 h-72 rounded-lg p-5">
+                  <div className="flex flex-wrap relative">
+                    <Image src="/statis/rpl.png" width={65} height={20} className="" alt="/" />
+                    <h5 className="font-semibold mt-4">
+                      Rekayasa <br /> Perangkat Lunak
+                    </h5>
+                    <p className="text-xs font-light text-justify ">
+                      Lorem ipsum dolor sit amet consectetur. Tellus aliquet amet tortor ut donec. Suscipit tortor cursus est ac.
+                    </p>
+                    <Image src="/statis/arrow.svg" width={40} height={20} className="mt-5" alt="/" />
+                  </div>
+                </div>
+
+                <div className="border border-white w-56 h-72 rounded-lg p-5">
+                  <div className="flex flex-wrap flex-col relative">
+                    <Image src="/statis/game.png" width={65} height={20} className="" alt="/" />
+                    <br />
+                    <h5 className="font-semibold mt-4">Game <br /> Intelligence</h5>
+                    <p className="text-xs font-light text-justify ">
+                      Lorem ipsum dolor sit amet consectetur. Tellus aliquet amet tortor ut donec. Suscipit tortor cursus est ac.
+                    </p>
+                    <Image src="/statis/arrow.svg" width={40} height={20} className="mt-5" alt="/" />
+                  </div>
+                </div>
+
+                <div className="border border-white w-56 h-72 rounded-lg p-5">
+                  <div className="flex flex-wrap relative">
+                    <Image src="/statis/ds.png" width={65} height={20} className="" alt="/" />
+                    <h5 className="font-semibold mt-4">Rekayasa Perangkat Lunak</h5>
+                    <p className="text-xs font-light text-justify ">
+                      Lorem ipsum dolor sit amet consectetur. Tellus aliquet amet tortor ut donec. Suscipit tortor cursus est ac.
+                    </p>
+                    <Image src="/statis/arrow.svg" width={40} height={20} className="mt-5" alt="/" />
+                  </div>
+                </div>
+
+                <div className="border border-white w-56 h-72 rounded-lg p-5">
+                  <div className="flex flex-wrap relative">
+                    <Image src="/statis/jaringan.png" width={65} height={20} className="" alt="/" />
+                    <h5 className="font-semibold mt-4">Rekayasa Perangkat Lunak</h5>
+                    <p className="text-xs font-light text-justify ">
+                      Lorem ipsum dolor sit amet consectetur. Tellus aliquet amet tortor ut donec. Suscipit tortor cursus est ac.
+                    </p>
+                    <Image src="/statis/arrow.svg" width={40} height={20} className="mt-5" alt="/" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

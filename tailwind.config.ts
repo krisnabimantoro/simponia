@@ -27,6 +27,7 @@ const config = {
         primary: "#101D37",
         third: "#1E4188",
         secondary: "#3D93E6",
+        topgrad: "#0E5090",
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",
