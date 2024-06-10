@@ -6,13 +6,19 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <section className=" bg-gradient-to-r from-primary to-third">
+      <section id="home" className=" bg-gradient-to-tr from-primary to-third">
         <div className="container ">
           <div className="flex flex-wrap h-screen">
             {/* <div className="absolute bottom-0 -left-20 w-36 h-48 md:w-72 md:h-72 lg:w-72 lg:h-72 bg-secondary rounded-full blur-3xl bl opacity-30 animate-blob animation-delay-2000"></div>
 
             <div className="absolute top-0 lg:right-0 w-24 h-24 md:w-80 md:h-80 lg:w-80 lg:h-80 right-10 bg-secondary rounded-full blur-3xl opacity-20 animate-blob animation-delay-4000"></div> */}
             <div className="self-center mx-auto relative">
+              <div className="flex flex-wrap justify-center mb-8 gap-4">
+                <Image src="/statis/rpl.png" width={50} height={20} className="mr-4" alt="/" />
+                <Image src="/statis/game.png" width={50} height={20} className="mr-4" alt="/" />
+                <Image src="/statis/ds.png" width={50} height={20} className="mr-4" alt="/" />
+                <Image src="/statis/jaringan.png" width={50} height={20} className="mr-4" alt="/" />
+              </div>
               <h1 className="text-center text-5xl">
                 Selamat Datang di <span className="font-bold">Simponia</span>
               </h1>
@@ -25,18 +31,38 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-white">
+      {/* <section id="step" className="bg-white">
         <div className="container">
           <div className="flex flex-wrap h-96">
             <div className="mt-24 mx-auto relative">
               <h1 className="text-primary font-bold text-2xl">AYO MULAI PORTFOLIO KAMU</h1>
-              <div className="grid grid-cols-3">
+            </div>
+          </div>
+        </div>
+      </section> */}
 
-              </div>
+      <section id="" className="bg-white">
+        <div className="container py-16">
+          <div className="flex flex-wrap w-full">
+            <div className="w-1/2 self-center pl-20">
+              <h1 className="text-primary font-bold text-3xl">Apa itu Portfolio?</h1>
+              <h2 className="text-justify mt-4 text-black">
+                Lorem ipsum dolor sit amet consectetur. Quisque purus risus in purus at a. Tincidunt et sapien donec id integer pulvinar. Eu
+                purus accumsan a ornare dictum massa mattis. Suspendisse at dolor{" "}
+              </h2>
+              <h2 className="text-justify mt-3 text-black">
+                Lorem ipsum dolor sit amet consectetur. Quisque purus risus in purus at a. Tincidunt et sapien donec id integer pulvinar. Eu
+                purus accumsan a ornare dictum massa mattis. Suspendisse at dolor{" "}
+              </h2>
+            </div>
+            <div className="w-1/2 flex ">
+              <Image src="/statis/hero.png" width={380} height={20} className="mx-auto rounded-3xl" alt="/" />
             </div>
           </div>
         </div>
       </section>
+
+      
     </div>
   );
 }
