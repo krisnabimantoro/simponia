@@ -42,7 +42,7 @@ export default function Home() {
       </section> */}
 
       <section id="" className="bg-white">
-        <div className="container py-16">
+        <div className="container py-28">
           <div className="flex flex-wrap w-full">
             <div className="w-1/2 self-center pl-20">
               <h1 className="text-primary font-bold text-3xl">Apa itu Portfolio?</h1>
