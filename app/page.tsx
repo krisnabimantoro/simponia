@@ -31,6 +31,7 @@ export default function Home() {
         </div>
       </section>
 
+
       {/* <section id="step" className="bg-white">
         <div className="container">
           <div className="flex flex-wrap h-96">
