@@ -31,16 +31,40 @@ export default function Home() {
         </div>
       </section>
 
-
-      {/* <section id="step" className="bg-white">
+      <section id="step" className="bg-white">
         <div className="container">
           <div className="flex flex-wrap h-96">
             <div className="mt-24 mx-auto relative">
-              <h1 className="text-primary font-bold text-2xl">AYO MULAI PORTFOLIO KAMU</h1>
+              <h1 className="text-primary font-bold text-2xl text-center">AYO MULAI PORTFOLIO KAMU</h1>
+              <div className="flex justify-center items-center space-x-64 mt-12">
+                <div className="text-center">
+                  <Image src="/statis/portfolio/login.svg" width={80} height={20} className="mx-auto mr-14 mb-2" alt="/" />
+                  <h5 className="text-primary font-bold text-xl">LOGIN</h5>
+                  <p className="text-primary text-xs">
+                    Silahkan login untuk dapat <br /> mengakses Simponia
+                  </p>
+                </div>
+
+                <div className="text-center">
+                  <Image src="/statis/portfolio/login.svg" width={80} height={20} className="mx-auto mr-14 mb-2" alt="/" />
+                  <h5 className="text-primary font-bold text-xl">LOGIN</h5>
+                  <p className="text-primary text-xs">
+                    Silahkan login untuk dapat <br /> mengakses Simponia
+                  </p>
+                </div>
+
+                <div className="text-center">
+                  <Image src="/statis/portfolio/login.svg" width={80} height={20} className="mx-auto mr-14 mb-2" alt="/" />
+                  <h5 className="text-primary font-bold text-xl">LOGIN</h5>
+                  <p className="text-primary text-xs">
+                    Silahkan login untuk dapat <br /> mengakses Simponia
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       <section id="" className="bg-white">
         <div className="container py-28">
@@ -83,10 +107,12 @@ export default function Home() {
                 </div>
 
                 <div className="border border-white w-56 h-72 rounded-lg p-5">
-                  <div className="flex flex-wrap flex-col relative">
+                  <div className="flex flex-col  relative">
                     <Image src="/statis/game.png" width={65} height={20} className="" alt="/" />
-                    <br />
-                    <h5 className="font-semibold mt-4">Game <br /> Intelligence</h5>
+
+                    <h5 className="font-semibold mt-4">
+                      Game <br /> Intelligence
+                    </h5>
                     <p className="text-xs font-light text-justify ">
                       Lorem ipsum dolor sit amet consectetur. Tellus aliquet amet tortor ut donec. Suscipit tortor cursus est ac.
                     </p>
@@ -95,13 +121,17 @@ export default function Home() {
                 </div>
 
                 <div className="border border-white w-56 h-72 rounded-lg p-5">
-                  <div className="flex flex-wrap relative">
+                  <div className="flex flex-col relative">
                     <Image src="/statis/ds.png" width={65} height={20} className="" alt="/" />
-                    <h5 className="font-semibold mt-4">Rekayasa Perangkat Lunak</h5>
+
+                    <h5 className="font-semibold mt-4">
+                      Data <br />
+                      Science
+                    </h5>
                     <p className="text-xs font-light text-justify ">
                       Lorem ipsum dolor sit amet consectetur. Tellus aliquet amet tortor ut donec. Suscipit tortor cursus est ac.
                     </p>
-                    <Image src="/statis/arrow.svg" width={40} height={20} className="mt-5" alt="/" />
+                    <Image src="/statis/arrow.svg" width={40} height={20} className="mt-5 " alt="/" />
                   </div>
                 </div>
 
