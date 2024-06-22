@@ -1,12 +1,13 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 export default function Home() {
   return (
     <div>
       <Navbar />
-      <section id="home" className=" bg-gradient-to-tr from-primary to-third">
+      <section id="home" className=" bg-grad">
         <div className="container ">
           <div className="flex flex-wrap h-screen">
             {/* <div className="absolute bottom-0 -left-20 w-36 h-48 md:w-72 md:h-72 lg:w-72 lg:h-72 bg-secondary rounded-full blur-3xl bl opacity-30 animate-blob animation-delay-2000"></div>
@@ -89,10 +90,10 @@ export default function Home() {
 
       <section className="bg-white">
         <div className="container ">
-          <div className="flex bg-gradient-to-tr from-topgrad to-secondary rounded-3xl ">
+          <div className="flex bg-gradient-to-tr from-topgrad to-secondary rounded-3xl drop-shadow-xl">
             <div className="self-center mx-auto">
-              <h1 className="text-white text-center mt-16 text-3xl font-bold">Kategori Portfolio</h1>
-              <div className="grid grid-cols-4 grid-rows-1 gap-6 pt-12 mb-16 ">
+              <h1 className="text-white text-center mt-20 text-3xl font-bold">Kategori Portfolio</h1>
+              <div className="grid grid-cols-4 grid-rows-1 gap-12 pt-12 mb-24 ">
                 <div className="border border-white w-56 h-72 rounded-lg p-5">
                   <div className="flex flex-wrap relative">
                     <Image src="/statis/rpl.png" width={65} height={20} className="" alt="/" />
@@ -138,7 +139,9 @@ export default function Home() {
                 <div className="border border-white w-56 h-72 rounded-lg p-5">
                   <div className="flex flex-wrap relative">
                     <Image src="/statis/jaringan.png" width={65} height={20} className="" alt="/" />
-                    <h5 className="font-semibold mt-4">Rekayasa Perangkat Lunak</h5>
+                    <h5 className="font-semibold mt-4">
+                      Sistem <br /> keamanan jaringan
+                    </h5>
                     <p className="text-xs font-light text-justify ">
                       Lorem ipsum dolor sit amet consectetur. Tellus aliquet amet tortor ut donec. Suscipit tortor cursus est ac.
                     </p>
@@ -150,6 +153,29 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section id="" className="bg-white">
+        <div className="container py-28">
+          <div className="flex flex-wrap w-full">
+            <div className="w-1/2 flex ">
+              <Image src="/statis/hero.png" width={380} height={20} className="mx-auto rounded-3xl" alt="/" />
+            </div>
+            <div className="w-1/2 self-center pl-20">
+              <h1 className="text-primary text-right font-bold text-3xl">About Simponia</h1>
+              <h2 className="text-justify mt-4 text-black">
+                Lorem ipsum dolor sit amet consectetur. Quisque purus risus in purus at a. Tincidunt et sapien donec id integer pulvinar. Eu
+                purus accumsan a ornare dictum massa mattis. Suspendisse at dolor{" "}
+              </h2>
+              <h2 className="text-justify mt-3 text-black">
+                Lorem ipsum dolor sit amet consectetur. Quisque purus risus in purus at a. Tincidunt et sapien donec id integer pulvinar. Eu
+                purus accumsan a ornare dictum massa mattis. Suspendisse at dolor{" "}
+              </h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <Footer />
     </div>
   );
 }
