@@ -1,12 +1,31 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 import { Button } from "../components/ui/button";
+import { useEffect, useState } from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
+  const [scrolling, setScrolling] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const handleScroll = () => {
+    if (window.scrollY > 20) {
+      setScrolling(true);
+    } else {
+      setScrolling(false);
+    }
+  };
+
   return (
-    <nav className="w-full fixed top-0 backdrop-blur-sm    z-10 ">
+    <nav className={scrolling ? "navbar-scroll" : "backdrop-blur-sm "}>
       <div className="container">
-        <div className="mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto ">
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center">
               <div className="flex flex-shrink-0">
