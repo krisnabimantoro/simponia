@@ -54,7 +54,7 @@ export default function Home() {
                 </div>
 
                 <div className="text-center flex flex-col items-center">
-                  <Image src="/statis/portfolio/Registration.png" width={80} height={20} className="  mb-2" alt="/" />
+                  <Image src="/statis/portfolio/Registration.svg" width={80} height={20} className="  mb-2" alt="/" />
                   <h5 className="text-primary font-bold text-xl">ISI DATA</h5>
                   <p className="text-primary text-xs">
                     Lengkapi data profile dan skill mu <br /> dengan selengkap-lengkapnya
@@ -62,7 +62,7 @@ export default function Home() {
                 </div>
 
                 <div className="text-center flex flex-col items-center">
-                  <Image src="/statis/portfolio/Submit.png" width={80} height={20} className="mb-2" alt="/" />
+                  <Image src="/statis/portfolio/Submit.svg" width={80} height={20} className="mb-2" alt="/" />
                   <h5 className="text-primary font-bold text-xl">SUBMIT PORTFOLIO</h5>
                   <p className="text-primary text-xs">
                     Portfoliomu akan di verifikasi <br /> oleh admin

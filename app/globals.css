@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities{
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -35,6 +41,7 @@
     --radius: 0.5rem;
   }
 
+  
   @layer components {
     nav {
       @apply w-full fixed top-0 z-10 py-2;
