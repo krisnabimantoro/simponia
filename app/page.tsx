@@ -38,27 +38,27 @@ export default function Home() {
             <div className="mt-24 mx-auto relative">
               <h1 className="text-primary font-bold text-2xl text-center">AYO MULAI PORTFOLIO KAMU</h1>
               <div className="flex justify-center items-center space-x-64 mt-12">
-                <div className="text-center">
-                  <Image src="/statis/portfolio/login.svg" width={80} height={20} className="mx-auto mr-14 mb-2" alt="/" />
+                <div className="text-center flex flex-col items-center">
+                  <Image src="/statis/portfolio/Enter.svg" width={80} height={20} className=" mb-2" alt="/" />
                   <h5 className="text-primary font-bold text-xl">LOGIN</h5>
                   <p className="text-primary text-xs">
                     Silahkan login untuk dapat <br /> mengakses Simponia
                   </p>
                 </div>
 
-                <div className="text-center">
-                  <Image src="/statis/portfolio/login.svg" width={80} height={20} className="mx-auto mr-14 mb-2" alt="/" />
-                  <h5 className="text-primary font-bold text-xl">LOGIN</h5>
+                <div className="text-center flex flex-col items-center">
+                  <Image src="/statis/portfolio/Registration.png" width={80} height={20} className="  mb-2" alt="/" />
+                  <h5 className="text-primary font-bold text-xl">ISI DATA</h5>
                   <p className="text-primary text-xs">
-                    Silahkan login untuk dapat <br /> mengakses Simponia
+                    Lengkapi data profile dan skill mu <br /> dengan selengkap-lengkapnya
                   </p>
                 </div>
 
-                <div className="text-center">
-                  <Image src="/statis/portfolio/login.svg" width={80} height={20} className="mx-auto mr-14 mb-2" alt="/" />
-                  <h5 className="text-primary font-bold text-xl">LOGIN</h5>
+                <div className="text-center flex flex-col items-center">
+                  <Image src="/statis/portfolio/Submit.png" width={80} height={20} className="mb-2" alt="/" />
+                  <h5 className="text-primary font-bold text-xl">SUBMIT PORTFOLIO</h5>
                   <p className="text-primary text-xs">
-                    Silahkan login untuk dapat <br /> mengakses Simponia
+                    Portfoliomu akan di verifikasi <br /> oleh admin
                   </p>
                 </div>
               </div>
